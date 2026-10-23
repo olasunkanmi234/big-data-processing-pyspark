@@ -33,6 +33,18 @@ This project explores big data processing and analysis using PySpark. It include
 
 The project report records an ROC-AUC score of **0.72** for the classification model. The prediction analysis reports an RMSE of **0.27** and an R² score of **0.60**.
 
+
+## Dataset
+
+The project uses the following CSV files:
+
+- `FactSalesTargets.csv`
+- `DimCustomer.csv`
+
+Both files are available in this repository. Download or clone the repository to access them before running the notebook.
+
+**Note:** The original dataset download source has not yet been verified.
+
 ## Repository Contents
 
 - `big_data_processing.ipynb` — PySpark analysis and modelling notebook.
