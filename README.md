@@ -1,65 +1,41 @@
-# Big Data Processing and Analysis with PySpark
+# Big Data Analysis Using Python and PySpark
 
 ## Project Overview
 
-This project explores big data processing and analysis using PySpark. It includes exploratory data analysis (EDA), data visualisation, machine learning classification, and prediction. The project also evaluates four cloud data platforms: Google BigQuery, Microsoft Azure, Oracle, and MongoDB.
-
-## Objectives
-
-- Explore and analyse datasets using PySpark.
-- Perform exploratory data analysis and visualisation.
-- Build a classification model using Gradient-Boosted Trees.
-- Apply data standardisation and prediction techniques.
-- Compare cloud data platforms based on scalability, data support, and other technical criteria.
+In this project, I used Python and PySpark to explore and analyse sales and customer datasets. My aim was to practise big data processing, data visualisation and machine learning.
 
 ## Tools and Technologies
 
 - Python
-- Apache Spark (PySpark)
+- PySpark
 - Jupyter Notebook
 - Machine Learning
 - Data Visualisation
 
-## Methodology
+## Analysis Performed
 
-1. Data loading and exploration.
-2. Data cleaning and statistical analysis.
-3. Data visualisation to explore relationships between variables.
-4. Classification using a Gradient-Boosted Tree model.
-5. Prediction using feature standardisation and train-test splitting.
-6. Evaluation using ROC-AUC, RMSE, and R², where applicable.
+During this project, I:
 
-## Results
+- Explored and cleaned the datasets.
+- Checked for missing values.
+- Performed exploratory data analysis.
+- Created charts to identify patterns.
+- Applied classification and linear regression models.
+- Evaluated model performance.
 
-The project report records an ROC-AUC score of **0.72** for the classification model. The prediction analysis reports an RMSE of **0.27** and an R² score of **0.60**.
+## Key Results
 
+I developed two machine learning models:
 
-## Dataset
+- **Classification:** Gradient-Boosted Tree Classifier achieved an AUC score of **0.72**.
+- **Prediction:** Linear Regression achieved an R-squared value of **0.60** and RMSE of **0.27**.
 
-The project uses the following CSV files:
+**Dataset:** The project uses FactSalesTargets.csv and DimCustomer.csv for sales and customer data analysis.
 
-- `FactSalesTargets.csv`
-- `DimCustomer.csv`
+## Conclusion
 
-Both files are available in this repository. Download or clone the repository to access them before running the notebook.
-
-**Note:** The original dataset download source has not yet been verified.
-
-## Repository Contents
-
-- `big_data_processing.ipynb` — PySpark analysis and modelling notebook.
-- `project_report.docx` — Detailed project report.
-
-## How to Run
-
-1. Clone or download this repository.
-2. Install Python and the required PySpark dependencies.
-3. Open `big_data_processing.ipynb` in Jupyter Notebook.
-4. Ensure the required datasets are available at the file paths specified in the notebook.
-5. Run the notebook cells in order.
-
-**Note:** The datasets used in the notebook may need to be obtained separately.
+This project helped me develop practical skills in using Python and PySpark for data processing, exploratory analysis, visualisation and machine learning.
 
 ## Author
 
-**Olasunkanmi David Adisa**
+**Olasunkanmi Adisa**
